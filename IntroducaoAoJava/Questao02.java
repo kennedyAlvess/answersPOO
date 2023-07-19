@@ -10,7 +10,7 @@ public class Questao02 {
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
             System.out.print("Informe o "+(i+1)+"º número: ");
-            num = Double.parseDouble(input.nextLine());
+            num = input.nextDouble();
             somaTotal += num;
         }
         input.close();

@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class Questao01 {
     public static void main(String[] args) {
-        int lados= 0;
+        int lados;
         Scanner input = new Scanner(System.in);
         System.out.print("Informe o valor do lado de um quadrado: ");
-        lados = Integer.parseInt(input.nextLine());
+        lados = input.nextInt();
         System.out.println("A área desse quadrado é: "+Math.pow(lados,2));
         input.close();
     }

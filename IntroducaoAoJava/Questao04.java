@@ -8,7 +8,7 @@ public class Questao04 {
         double temp;
         Scanner input = new Scanner(System.in);
         System.out.println("Temperatura em graus centígrados: ");
-        temp = Double.parseDouble(input.nextLine());
+        temp = input.nextDouble();
         System.out.println("A temperatura em graus Fahrenheit: "+(temp*1.8+32)+" ºF");
         input.close();
     }

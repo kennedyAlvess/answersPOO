@@ -10,7 +10,7 @@ public class Questao03 {
         int angulo;
         Scanner input = new Scanner(System.in);
         System.out.println("Informe um ângulo em graus: ");
-        angulo = Integer.parseInt(input.nextLine());
+        angulo = input.nextInt();
         double toRadiano = Math.toRadians(angulo);
         double seno = Math.sin(angulo);
         double cos= Math.cos(angulo);

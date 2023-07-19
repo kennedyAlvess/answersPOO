@@ -10,10 +10,11 @@ public class Questao05 {
     public static void main(String[] args) {
         int numCDU;
         int centena, dezena, unidade;
+
         Scanner input = new Scanner(System.in);
         do {
             System.out.println("Informe um número de 3 dígitos: ");
-            numCDU = Integer.parseInt(input.nextLine());
+            numCDU = input.nextInt();
             if (numCDU < 100 || numCDU > 999) {
                 System.out.println("Número invalido.");
             }

@@ -8,9 +8,10 @@ import java.util.Scanner;
 public class Questao06 {
     public static void main(String[] args) {
         int numMinutos, totalDias, totalHoras, totalMinutos;
+
         Scanner input = new Scanner(System.in);
         System.out.println("Informe o valor em minutos: ");
-        numMinutos = Integer.parseInt(input.nextLine());
+        numMinutos = input.nextInt();
         input.close();
         totalDias = numMinutos/1440;
         totalHoras = (numMinutos%1440)/60;
