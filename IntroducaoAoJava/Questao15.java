@@ -10,7 +10,7 @@ public class Questao15 {
                 TotalDeNumerosPerfeitos ++;
             }
             numero ++;
-        }while (TotalDeNumerosPerfeitos < 5);
+        }while (TotalDeNumerosPerfeitos != 4);
     }
     public static int somaDosDivisores(int numero){
         int soma = 0;
