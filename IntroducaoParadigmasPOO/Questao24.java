@@ -7,8 +7,8 @@ public class Questao24 {
     private int empates;
     private int pontos;
     private String regiao;
-    private String[] jogadores[];
-    private String[] jogadoresOff[];
+    private String[] jogadores;
+    private String[] jogadoresOff;
 
     public void jogar(int vitorias, int derrotas, int empates){};
     public void mandoDeCampo(){};
