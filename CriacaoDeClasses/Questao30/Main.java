@@ -7,14 +7,16 @@ public class Main {
     public static void main(String[] args) {
         final Format formatar = new DecimalFormat(".##");
 
-        Aluno aluno1 = new Aluno("2019101213","Kennedy",7,7,7);
+        Aluno aluno1 = new Aluno("2019101213","Kennedy",3,3,3);
 
         System.out.println("Media parcial do aluno "+aluno1.getNome()+" : "
                 +formatar.format(aluno1.media()));
 
         if(aluno1.provaFinal() == 0){
             System.out.println("Aluno passou por média");
-        }else {
+        } else if (aluno1.provaFinal() == 1) {
+            System.out.println("Aluno reprovou direto");
+        } else {
             System.out.println("Aluno vai para final precisando de: "
                     +formatar.format(aluno1.provaFinal()));
         }

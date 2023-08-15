@@ -21,9 +21,11 @@ public class Aluno {
     }
     public double provaFinal(){
         double mediaParcial = media();
-        if(mediaParcial < 3 || mediaParcial >= 7){
+        if(mediaParcial < 3 ){
+            return 1;
+        } else if (mediaParcial >= 7) {
             return 0;
-        }else{
+        } else{
             return (50-(mediaParcial*6))/4;
         }
     }
