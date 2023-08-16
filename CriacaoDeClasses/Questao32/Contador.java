@@ -12,7 +12,6 @@ public class Contador {
     }
     public void incrementarContador(){
         contadorEventos ++;
-        System.out.println("Contador incrementado.");
     }
     public int getContadorEventos() {
         return contadorEventos;
