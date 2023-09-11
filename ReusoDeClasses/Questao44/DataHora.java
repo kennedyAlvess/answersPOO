@@ -13,20 +13,11 @@ public class DataHora {
         this.data = LocalDate.parse(data, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         this.hora = LocalTime.parse(hora, DateTimeFormatter.ofPattern("HH:mm"));
     }
-
     public LocalDate getData() {
         return data;
     }
-
-    public void setData(LocalDate data) {
-        this.data = data;
-    }
-
     public LocalTime getHora() {
         return hora;
     }
 
-    public void setHora(LocalTime hora) {
-        this.hora = hora;
-    }
 }
