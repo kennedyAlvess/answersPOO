@@ -1,9 +1,10 @@
 package Provas.PrimeiraUnidade.P_2022_2.Questao04;
 
-import Listas.CriacaoDeClasses.Questao35.MaiorNumero;
+import Listas.CriacaoDeClasses.Questao35.MaiorNumeros;
 
 public class Main {
     public static void main(String[] args) {
+
         MaiorNumero.maiorInteiro(1,2);
         MaiorNumero.maiorInteiro(1,2,2);
         MaiorNumero.maiorInteiro(1,2,3,5);

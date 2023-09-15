@@ -2,17 +2,17 @@ package Listas.CriacaoDeClasses.Questao35;
 
 public class Main {
     public static void main(String[] args) {
-        MaiorNumero.maiorInteiro(1,2);
-        MaiorNumero.maiorInteiro(1,2,2);
-        MaiorNumero.maiorInteiro(1,2,3,5);
-        MaiorNumero.maiorInteiro(1,2,1,6,7);
+        MaiorNumeros.maiorInt(1,2);
+        MaiorNumeros.maiorInt(1,2,6);
+        MaiorNumeros.maiorInt(1,2,10,-1);
+        MaiorNumeros.maiorInt(1,2,5,7,29,31);
 
-        System.out.println("====================");
+        System.out.println("====================================");
 
-        MaiorNumero.maiorDouble(7.2,2.5);
-        MaiorNumero.maiorDouble(7.2,2.5,10.0);
-        MaiorNumero.maiorDouble(7.2,2.5,9.9,5.9);
-        MaiorNumero.maiorDouble(7.2,2.5,1.4,1.5,20.0);
+        MaiorNumeros.maiorDoub(2.1,2.9);
+        MaiorNumeros.maiorDoub(2.1,2.9,8.9);
+        MaiorNumeros.maiorDoub(2.1,2.9,9.9,10.0);
+        MaiorNumeros.maiorDoub(2.1,2.9,2.1,3.1,5.5);
 
     }
 }
