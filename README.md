@@ -1,6 +1,6 @@
-> # Programação Orientada a Objeto 
+# **Programação Orientada a Objeto**
 
-## **Listas**
+# Listas
 ___
 * [**Introdução ao Java.**](https://github.com/kennedyAlvess/answersPOO/tree/main/Listas/IntroducaoAoJava)
 ####
@@ -12,7 +12,7 @@ ___
 ####
 * [**Reuso de Classes.**](https://github.com/kennedyAlvess/answersPOO/tree/main/Listas/ReusoDeClasses)
 
-## **Provas**
+# Provas
 ___
 
 * [**1ª Unidade**](https://github.com/kennedyAlvess/answersPOO/tree/main/Provas/PrimeiraUnidade)
