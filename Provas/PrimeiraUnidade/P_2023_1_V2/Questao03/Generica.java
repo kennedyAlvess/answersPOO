@@ -1,4 +1,4 @@
-package Listas.CriacaoDeClasses.Questao37;
+package Provas.PrimeiraUnidade.P_2023_1_V2.Questao03;
 
 public class Generica <T> {
     private T atributo1;
